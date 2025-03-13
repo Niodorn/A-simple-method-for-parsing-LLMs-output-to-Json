@@ -33,8 +33,6 @@ def parse_response(response_text):
           ]
         }}'''
 
-    - response_text: str, the raw JSON-formatted output from an LLM.
-
     Returns:
     Completed JSON format output.
     """
